@@ -1,0 +1,89 @@
+table{
+    border-collapse: collapse;
+    height: 1vw;
+    width: 0.5vw;
+   
+    
+}
+.tab{
+
+background-color: red;
+}
+.page {
+
+   background-color: lawngreen;
+  
+  margin: auto;
+}
+
+td{
+   border: 3px white solid;
+   height: 1vw;
+   width: 0.5vw;
+   text-align: center;
+   font-size: 1vw;
+   
+}
+.BK
+{
+    border: 2px  rgb(247, 236, 236) solid ;
+    background-color: white;
+    border-block-width: 50px;
+    
+}
+.V{
+    background-color: #9E95C6;
+    text-justify: auto;
+}
+.B{
+    background-color: #84B8D7;
+}
+.BC{
+background-color: #A2DBC9;
+}
+.CL{
+background-color: #CDEBC8 ;
+}
+.VC{
+background-color: #F0F9C1 ;
+}
+.R{
+background-color: #F8A68E;
+}
+.O{
+background-color: #FDCE9F;
+}
+.OC{
+background-color: #FEECB9;
+}
+.PL{
+background-color: #E68A95;
+}
+.PP{
+background-color: #C5688E;
+}
+.Ind{
+
+}
+.el{
+font-weight: bolder;
+font-size: 1.5vw;
+
+}
+.nom{
+
+}
+.val{
+
+}
+.img{
+    size: 20px;
+    margin: 10%;
+    
+}
+.presentation{
+ 
+}
+.td{
+    padding: 15px;
+}

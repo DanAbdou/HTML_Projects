@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 11px;
+}
+.header
+{
+    text-align: right;
+} 
+.header a, .header button
+{
+margin: 0px 10px;
+color: #000;
+text-decoration: none;
+
+}
+.header button
+{
+     background: #4484f1;
+     padding:4px 8px;
+     color: #fff;
+     border-radius: 2px;
+     font-weight: bold;
+     font-size: 11px;
+     border: none;
+} 
+.main{
+    
+    margin-top: 70px ;
+    text-align: center;
+}
+.main #rec 
+{
+    
+    
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  margin-bottom: 15px;
+}
+ 
+.boite-recherche
+{
+    height: 40px;
+    width: 500px;
+    border-radius: 25px;
+    box-shadow:  5px 5px 10px #dfdfdf, 
+             -5px -5px 10px#dfdfdf;
+    border: 1px white solid;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
+.boite-recherche input
+{
+    height: 20px;
+    width: 400px;
+   /* padding-top: 5px;*/
+    border: 1px white solid;
+}
+.boite-recherche img
+{
+width: 20px;
+margin-top: 5px;
+margin-left: 40px;
+}
+.boite-recherche input:focus
+{
+outline: none;
+}
+.main button
+{
+    padding-top: 0px;
+    border: none;
+    font-size: 11px ;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+.cadrant
+{
+    display: inline-block;
+    position: relative;
+    top: 13px;
+
+}
+.footer
+{
+border-bottom: 1px solid;
+background-color: #f2f2f2;
+color: #6f6f6f;
+padding: 5px;
+margin-top: 15px;
+}
+.bas 
+{
+    display: flex;
+    justify-content: space-between ;
+    background-color: #f2f2f2;
+    padding: 5px;
+}
+
+.liens-gauche a
+{
+    color: #6f6f6f;
+} 
+.liens-droite a
+{
+    color: #6f6f6f;
+    
+}
