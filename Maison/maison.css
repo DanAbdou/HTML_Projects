@@ -8,7 +8,9 @@
 .blockpage
 {
     width:100%;
+    text-align: center;
 }
+
 header
 {
     width:100%;
@@ -28,10 +30,10 @@ header
     
 
 }
-.banniere_image:nth-child(1)
+/*.banniere_image:nth-child(1)
 {
 align-self: flex-start;
-}
+}*/
 .ban
 {
     
@@ -161,8 +163,9 @@ padding: 20px;
   .maison
   {
     display: grid;
-    grid-template-columns: 1fr 1fr ;
-    grid-template-rows: 1fr 1fr ;
+    column-gap: ;
+    grid-template-columns: 0.75fr 0.75fr ;
+    grid-template-rows: 0.75fr 0.75fr ;
     width: 100%;
     margin: 10px auto;
     
@@ -176,7 +179,7 @@ padding: 20px;
 .mai1
 {
   background-image: url(./image/v11.jpg);
-  width: 500px;
+  width: 400px;
     height: 300px;
     margin: 10px auto;
     box-shadow:  35px 35px 70px #949494, 
@@ -189,7 +192,7 @@ padding: 20px;
 .mai2
 {
   background-image: url(./image/v2.jpg);
-  width: 500px;
+  width: 400px;
     height: 300px;
     margin: 10px auto;
     box-shadow:  35px 35px 70px #949494, 
@@ -201,7 +204,7 @@ padding: 20px;
 .mai3
 {
   background-image: url(./image/v3.jpg);
-  width: 500px;
+  width: 400px;
     height: 300px;
     margin: 10px auto;
     box-shadow:  35px 35px 70px #949494, 
@@ -213,7 +216,7 @@ padding: 20px;
 .mai4
 {
   background-image: url(./image/v4.jpg);
-  width: 500px;
+  width: 400px;
   height: 300px;
     margin: 10px auto;
     box-shadow:  35px 35px 70px #949494, 
@@ -252,9 +255,13 @@ font-weight: bolder;
 {
   .mai1, .mai2, .mai3,.mai4
   {
-     width: 300px ;
-
+     width: 10px ;
+     height: 10px;
   }
+ .maison
+{
+  grid-template-columns: 1fr ;
+}
 }
 .mai1>p, .mai2>p,.mai3>p,.mai4>p {
   margin-left: 30px;
